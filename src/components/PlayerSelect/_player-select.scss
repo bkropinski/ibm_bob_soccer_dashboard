@@ -1,9 +1,13 @@
 .player-select {
-  max-width: 320px;
+  &__search {
+    margin-bottom: 1rem;
+    max-width: 480px;
+  }
 
-  &__confirmation {
-    margin-top: 1rem;
-    font-size: 0.875rem;
-    color: #525252;
+  &__filters {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
   }
 }
