@@ -1,0 +1,33 @@
+.wiki-summary {
+  width: 320px;
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e0e0e0;
+  background: #f4f4f4;
+
+  &__label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #525252;
+    margin: 0 0 0.6rem;
+  }
+
+  &__body {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin: 0 0 0.75rem;
+
+    &--muted {
+      color: #6f6f6f;
+      font-style: italic;
+    }
+  }
+
+  &__source {
+    font-size: 0.75rem;
+    color: #8d8d8d;
+    margin: 0;
+  }
+}
