@@ -1,8 +1,21 @@
-@use './components/Header/header';
-@use './components/Info/info';
-@use './content/UIShell/UIShell';
-@use './content/LandingPage/landing-page';
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 
-.app .cds--content {
-  margin-top: 3rem;
+  &__header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  &__main {
+    width: 100%;
+  }
 }

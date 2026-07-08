@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import UIShell from './content/UIShell/UIShell';
+import React from 'react';
 import './App.scss';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <UIShell />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="app">
+      <header className="app__header">
+        <h1>Player Dashboard</h1>
+      </header>
+      <main className="app__main">
+      </main>
+    </div>
+  );
 }
 
 export default App;
